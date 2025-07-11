@@ -1,0 +1,54 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  border: 1px solid rgb(82, 82, 82);
+  width: 150px;
+  height: 275px;
+  border-radius: 10px;
+  background-color: rgb(48, 47, 47);
+}
+
+.display {
+  margin: 5px;
+  width: 85%;
+  height: 8%;
+  font-size: 15px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+button {
+  width: 30px;
+  height: 30px;
+  margin: 4px;
+  border-radius: 50%;
+  border-color: gray;
+  transition: opacity 0.3s ease-in-out;
+  outline: none;
+  border: none;
+  transition: box-shadow 0.3s ease-in-out, transform 0.2s ease;
+}
+
+
+.c, .divv, .mul, .add, .sub {
+  background-color: orange;
+  border-color: gray;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(255, 191, 0, 0.5);
+}
+
+button:hover {
+  opacity: 0.7;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
+  transform: scale(1.05); 
+  cursor: pointer;
+
+}
